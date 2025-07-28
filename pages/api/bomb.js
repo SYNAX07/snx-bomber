@@ -26,7 +26,6 @@ export default async function handler(req, res) {
     if (jsonData.mail.multi) apis.push(...jsonData.mail.multi);
   }
 
-  import fetch from 'node-fetch';
   const results = [];
 
   for (let i = 0; i < count; i++) {
