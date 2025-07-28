@@ -1,0 +1,18 @@
+{
+  "sms": {
+    "91": [
+      {
+        "name": "Ajio",
+        "method": "GET",
+        "url": "https://www.ajio.com/api/sms/send?phone={target}",
+        "identifier": "success"
+      }
+    ]
+  },
+  "call": {
+    "91": []
+  },
+  "mail": {
+    "multi": []
+  }
+}
